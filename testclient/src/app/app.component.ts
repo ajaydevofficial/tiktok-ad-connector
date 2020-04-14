@@ -10,7 +10,6 @@ import { Router } from '@angular/router';
 export class AppComponent {
   title = 'testclient';
 
-
   auth_url = "https://ads.tiktok.com/marketing_api/auth?app_id=1663862492277766&state=your_custom_params&scope=%5B2%5D&redirect_uri=https%3A%2F%2Fdev.perfotricks.com%2Fsources%2Ftikok"
 
   constructor(private router:Router){
